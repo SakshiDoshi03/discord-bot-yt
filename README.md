@@ -20,6 +20,7 @@ A Discord bot that replies to `/ping`, supports an `/ask` slash command, and sto
    - `APPLICATION_ID`
    - `MONGODB_URL`
    - `GEMINI_API_KEY`
+   - Optional: `GEMINI_MODEL` (defaults to `gemini-2.5-flash`)
 
 ## Run
 
