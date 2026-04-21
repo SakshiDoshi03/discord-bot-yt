@@ -1,0 +1,23 @@
+{
+  "name": "discord-bot-yt",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "register": "node cmd.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.26.0",
+    "dotenv": "^17.4.0",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.3",
+    "nanoid": "^5.1.7",
+    "nodemon": "^3.1.14",
+    "@google/genai": "^1.48.0"
+  }
+}
